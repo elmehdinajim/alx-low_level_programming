@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main - Lists all numbers < 1024 
+ *main - Lists all numbers < 1024
  *       that are multiples of 3 or 5.
  *
  *Return: Always 0.
