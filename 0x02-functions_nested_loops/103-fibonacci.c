@@ -3,7 +3,7 @@
 /**
  *main - finds and prints the sum of the even-valued nums
  *followed by a new line
- *Return: Always 0 
+ *Return: Always 0
  */
 int main(void)
 {
