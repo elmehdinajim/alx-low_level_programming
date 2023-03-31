@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  *leet - encodes a string to 1337
  *@s: input string.
  *Return: the pointer dest.
  */
-
 char *leet(char *s)
 {
 	int count = 0, i;
@@ -24,9 +22,7 @@ char *leet(char *s)
 				break;
 			}
 		}
-
 		count++;
 	}
-
 	return (s);
 }
