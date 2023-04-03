@@ -3,18 +3,18 @@
 /**
  *_strpbrk - Entry pnt
  *@s: in
- *@approve: in
+ *@accept: in
  *Return: 0 (Success)
  */
-char *_strpbrk(char *s, char *approve)
+char *_strpbrk(char *s, char *accept)
 {
 	int k;
 
 	while (*s)
 	{
-		for (k = 0; approve[k]; k++)
+		for (k = 0; accept[k]; k++)
 		{
-			if (*s == approve[k])
+			if (*s == accept[k])
 				return (s);
 		}
 
