@@ -1,19 +1,16 @@
 #include "main.h"
 
 /**
- *_strlen_recursion - length string.
- *@s: In.
- *Return: length of s.
+ *_print_rev_recursion - reverse string
+ *@s: pointer mem
+ *Return: empty
  */
-int _strlen_recursion(char *s)
+
+void _print_rev_recursion(char *s)
 {
-	int longit = 0;
-
-	if (*s)
+	if (*s) /*If statement*/
 	{
-		longit++;
-		longit += _strlen_recursion(s + 1);
+		_print_rev_recursion(s + 1); /*add s*/
+		_putchar(*s); /*print s*/
 	}
-
-	return (longit);
 }
