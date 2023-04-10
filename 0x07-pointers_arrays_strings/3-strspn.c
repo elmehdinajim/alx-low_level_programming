@@ -1,31 +1,31 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- *_strspn - Entry pnt
- *@s: in
- *@accept: in
- *Return: 0 (Success)
+ * print_diagsums - Entry pnt
+ * @a: in
+ * @size: in
+ * Return 0: (Success)
  */
-unsigned int _strspn(char *s, char *accept)
+void print_diagsums(int *a, int size)
 {
-	unsigned int n = 0;
-	int r;
+        int add1, add2, y;
 
-	while (*s)
-	{
-		for (r = 0; accept[r]; r++)
-		{
-			if (*s == accept[r])
-			{
-				n++;
-				break;
-			}
-			else if (accept[r + 1] == '\0')
-				return (n);
-		}
 
-		s++;
-	}
+        add1 = 0;
+        add2 = 0;
 
-	return (n);
+
+        for (y = 0; y < size; y++)
+        {
+                add1 = add1 + a[y * size + y];
+        }
+
+
+        for (y = size - 1; y >= 0; y--)
+        {
+                add2 += a[y * size + (size - y - 1)];
+        }
+
+
+        printf("%d, %d\n", add1, add2);
 }
