@@ -1,8 +1,8 @@
 #include "main.h"
-
 /**
- *@dest: A pointer to a char to be changed
- *@src: A pointer to a char to be changed
+ *_strncpy - Entry pnt
+ *@dest: char pointer to be changed
+ *@src: char pointer to be changed
  *@n: value
  *Return: dest
  */

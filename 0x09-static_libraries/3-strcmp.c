@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- *@s1: A pointer to a character to be changed
- *@s2: A pointer to a character be changed
+ *_strcmp - count string
+ *@s1: pointer to be changed
+ *@s2: pointer to be changed
  *Return: dest
  */
 
