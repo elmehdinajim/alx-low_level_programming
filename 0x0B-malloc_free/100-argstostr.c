@@ -4,7 +4,7 @@
 /**
  *argstostr - main ---
  *@ac: int input --
- *@av: double pointer 
+ *@av: double pointer
  *Return: 0
  */
 char *argstostr(int ac, char **av)
@@ -23,7 +23,7 @@ char *argstostr(int ac, char **av)
 
 	l += ac;
 
-	str = malloc(sizeof(char) *l + 1);
+	str = malloc(sizeof(char) * l + 1);
 	if (str == NULL)
 		return (NULL);
 	for (i = 0; i < ac; i++)
