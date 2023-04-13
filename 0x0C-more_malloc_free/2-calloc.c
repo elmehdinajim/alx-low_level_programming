@@ -4,7 +4,7 @@
  *_calloc -allocated memo for nmemb de size bytes
  *@nmemb: elements in array
  *@size: bytes of each position in the array
- *Return: pointer 
+ *Return: pointer
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
@@ -14,7 +14,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 
-	p = malloc(nmemb *size);
+	p = malloc(nmemb * size);
 	if (p == NULL)
 		return (NULL);
 
