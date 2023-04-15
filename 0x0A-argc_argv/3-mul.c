@@ -27,9 +27,9 @@ int _atoi(char *s)
 			nmbr = s[i] - '0';
 			if (d % 2)
 				nmbr = -nmbr;
-			n = n *10 + nmbr;
+			n = n * 10 + nmbr;
 			f = 1;
-			if (s[i + 1]<'0' || s[i + 1] > '9')
+			if (s[i + 1] < '0' || s[i + 1] > '9')
 				break;
 			f = 0;
 		}
