@@ -5,7 +5,7 @@
  *main - print the number of arg passed
  *@argc: nmbr of arg
  *@argv: array of arguments
- *Return 0: Succes
+ *Return: 0
  */
 int main(int argc, char *argv[])
 {

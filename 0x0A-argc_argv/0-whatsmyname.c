@@ -5,7 +5,7 @@
  *main - name of the program
  *@argc: nmbr arg
  *@argv: array of arg
- *Return 0: Success
+ *Return: 0
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
