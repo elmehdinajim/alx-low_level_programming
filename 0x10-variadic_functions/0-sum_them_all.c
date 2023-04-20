@@ -4,7 +4,6 @@
 /**
  *sum_them_all - sum of all paramters.
  *@n: umber of paramters in function.
- *@: number of paramters to calculate the sum.
  *Return: If n == 0 - 0.
  *       Otherwise - the sum of all parameters.
  */
